@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import { IoMenu, IoLogoInstagram, IoClose } from "react-icons/io5";
-import { MdOutlineWhatsapp } from "react-icons/md";
+import { IoMenu, IoClose } from "react-icons/io5";
 
 const Header = () => {
   const [ismenuOpen, setMenuOpen] = useState(false);
@@ -64,30 +63,30 @@ const Header = () => {
         </div>
         {ismenuOpen && (
           <div className="md:hidden absolute top-[50px] right-1 bg-[#303030] w-48 p-2 space-y-2 text-end flex flex-col ">
-            <a
+            <Link
               href="#beranda"
               className="text-white hover:text-[#00B586] transition duration-500"
             >
               Beranda
-            </a>
-            <a
+            </Link>
+            <Link
               href="#tentang"
               className="text-white hover:text-[#00B586] transition duration-500"
             >
               Tentang saya
-            </a>
-            <a
+            </Link>
+            <Link
               href="#portofolio"
               className="text-white hover:text-[#00B586] transition duration-500"
             >
               Portofolio
-            </a>
-            <a
+            </Link>
+            <Link
               href="#kontak"
               className="text-white hover:text-[#00B586] transition duration-500"
             >
               Kontak
-            </a>
+            </Link>
           </div>
         )}
       </div>

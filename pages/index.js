@@ -68,44 +68,44 @@ function Homepage() {
         </div>
         <div className="flex flex-row py-6 gap-5 text-white">
           <div className="relative group">
-            <a
+            <Link
               href="https://discord.gg/YhzrRqKMsP"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaDiscord className="text-3xl transition-transform transform group-hover:scale-150 group-hover:text-[#6a5acd]" />
               <div className="absolute inset-0 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-30 transition-opacity"></div>
-            </a>
+            </Link>
           </div>
           <div className="relative group">
-            <a
+            <Link
               href="https://www.instagram.com/dillamaulana_18/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram className="text-3xl transition-transform transform group-hover:scale-150 group-hover:text-[#ff1493]" />
               <div className="absolute inset-0 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-30 transition-opacity"></div>
-            </a>
+            </Link>
           </div>
           <div className="relative group">
-            <a
+            <Link
               href="https://www.whatsapp.com/087747962252/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaWhatsapp className="text-3xl transition-transform transform group-hover:scale-150 group-hover:text-[#25D366]" />
               <div className="absolute inset-0 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-30 transition-opacity"></div>
-            </a>
+            </Link>
           </div>
           <div className="relative group">
-            <a
+            <Link
               href="https://discord.gg/YhzrRqKMsP"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub className="text-3xl transition-transform transform group-hover:scale-150 group-hover:text-[#663399]" />
               <div className="absolute inset-0 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-30 transition-opacity"></div>
-            </a>
+            </Link>
           </div>
         </div>
         <div>
@@ -264,11 +264,11 @@ function Homepage() {
         </Link>
         <p className="text-white">
           Created by
-          <a href="/">
+          <Link href="/">
             <span className=" pl-1 hover:text-[#00B586] cursor-pointer">
               Dilla Maulana
             </span>
-          </a>
+          </Link>
         </p>
       </footer>
     </>
